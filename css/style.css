@@ -18,7 +18,20 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header {}
+header {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.nav {
+    min-width: 80%;
+    max-width: 80%;
+}
 
 @media screen and (max-width: 480px) {}
 
