@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
@@ -33,7 +34,6 @@
         <section class="get-started">
             <img src="images/illustration-1.svg" alt="All your files in one secure location">
             <h1>All your files in one secure location, accessible anywhere.</h1>
-
             <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
             <form action="#">
                 <input type="text" name="email-start" id="email-start" placeholder="Enter your email">
@@ -59,8 +59,10 @@
         </section>
         <!--get-early-access section -->
         <section class="get-early-access">
-            <h2>Get early access today</h2>
-            <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+            <div>
+                <h2>Get early access today</h2>
+                <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+            </div>
             <form action="#">
                 <input type="text" name="email-access" id="email-access">
                 <input type="submit" value="Get Started For Free">
@@ -68,10 +70,13 @@
         </section>
     </main>
     <footer>
-        <ul>
-            <li>Phone: <a href="tel:+1-543-123-4567">+1-543-123-4567</a></li>
-            <li>Email: <a href="mailto:example@fylo.com">example@fylo.com</a></li>
-        </ul>
+        <div>
+            <img src="images/logo.svg" alt="Loog Fylo">
+            <ul class="contacts">
+                <li><i class="fa fa-phone" aria-hidden="true"></i>Phone: <a href="tel:+1-543-123-4567">+1-543-123-4567</a></li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:example@fylo.com">example@fylo.com</a></li>
+            </ul>
+        </div>
 
         <ul>
             <li><a href="#">About Us</a></li>
@@ -86,10 +91,10 @@
             <li><a href="#">Privacy</a></li>
         </ul>
 
-        <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
+        <ul class="social">
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
         </ul>
     </footer>
 </body>
